@@ -133,53 +133,7 @@ export default {
           event.items[0].classList.remove('active')
         }
       },
-      items: [
-        {
-          id: this.$uuid.v4(),
-          content: 'item 1',
-          list: 1
-        },
-        {
-          id: this.$uuid.v4(),
-          content: 'item 2',
-          list: 1
-        },
-        {
-          id: this.$uuid.v4(),
-          content: 'item 3',
-          list: 2
-        },
-        {
-          id: this.$uuid.v4(),
-          content: 'item 4',
-          list: 2
-        },
-        {
-          id: this.$uuid.v4(),
-          content: 'item 5',
-          list: 2
-        },
-        {
-          id: this.$uuid.v4(),
-          content: 'item 6',
-          list: 3
-        },
-        {
-          id: this.$uuid.v4(),
-          content: 'item 7',
-          list: 3
-        },
-        {
-          id: this.$uuid.v4(),
-          content: 'item 8',
-          list: 4
-        },
-        {
-          id: this.$uuid.v4(),
-          content: 'item 9',
-          list: 4
-        }
-      ]
+      items: []
     }
   },
   computed: {
