@@ -11,7 +11,9 @@
         ></b-form-textarea>
       </b-col>
       <b-col sm="4" id="submit-container">
-        <b-button variant="primary" @click="onSubmit">Submit</b-button>
+        <b-button variant="primary" @click="onSubmit" class="mt-2"
+          >Submit</b-button
+        >
       </b-col>
     </b-row>
   </b-container>
