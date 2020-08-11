@@ -10,6 +10,7 @@
   "dependencies": {
     "bootstrap-vue": "^2.16.0",
     "core-js": "^3.6.5",
+    "mobile-drag-drop": "^2.3.0-rc.2",
     "vue": "^2.6.11",
     "vue-draggable": "^1.1.1",
     "vue-uuid": "^2.0.2"
