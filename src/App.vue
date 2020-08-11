@@ -127,9 +127,7 @@ export default {
         onDragstart: event => {
           event.items[0].classList.add('active')
         },
-        onDragenter: function(event) {
-          event.preventDefault()
-        },
+        // onDragenter: function(event) {},
         // onDragover: function(event) {},
         onDragend: event => {
           event.items[0].classList.remove('active')
